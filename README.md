@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: referencing a file that isn't included in the image's context.  The initial `Dockerfile` attempts to install dependencies using `requirements.txt`, but this file is missing from the image's context. The solution adds the missing file.
